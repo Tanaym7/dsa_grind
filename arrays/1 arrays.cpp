@@ -1,3 +1,4 @@
+// solution class
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -13,3 +14,20 @@ public:
     return i+1;
     }
 };
+
+// driver code
+int main(){
+   int t=1;
+   //cin >> t;
+   while (t--){
+   int n;
+   cin >> n; 
+   vector<int>arr(n); 
+   for (int i = 0; i < n; i++){ 
+     cin >> arr[i];
+}
+     Solution ob; 
+     cout << ob.check(arr, n) << "\n";
+}
+   return 0;
+}
