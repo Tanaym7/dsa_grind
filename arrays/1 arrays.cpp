@@ -26,8 +26,8 @@ int main(){
    for (int i = 0; i < n; i++){ 
      cin >> arr[i];
 }
-     Solution ob; 
-     cout << ob.check(arr, n) << "\n";
+    Solution ob; 
+    cout << ob.check(arr, n) << "\n";
 }
    return 0;
 }
