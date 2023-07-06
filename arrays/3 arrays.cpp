@@ -34,20 +34,21 @@ public:
 };
 int main()
 {
-	init_code();
 	int t;
 	cin >> t;
 	while (t--)
 {
+	int n;
+	cin >> n; 
 	int k;
 	cin >> k; 
-	vector<int> arr; 
+	vector<int> arr(n); 
 	for (int i = 0; i < n; i++)
 {
  cin >> arr[i];
 }
 	Solution ob; 
-	cout << ob.rotate(arr, n) << "\n";
+	cout << ob.rotate(arr, k, n) << "\n";
 }
 	return 0;
 }
